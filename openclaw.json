@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.14",
+    "lastTouchedAt": "2026-02-17T17:09:33.208Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-17T17:09:33.187Z",
+    "lastRunVersion": "2026.2.14",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "github-copilot:github": {
+        "provider": "github-copilot",
+        "mode": "token"
+      },
+      "zai:default": {
+        "provider": "zai",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "nvidia": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "REDACTED",
+        "api": "openai-completions",
+        "models": [
+          { "id": "minimaxai/minimax-m2.1", "name": "minimaxai/minimax-m2.1", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 },
+          { "id": "z-ai/glm5", "name": "z-ai/glm5", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 },
+          { "id": "z-ai/glm4.7", "name": "z-ai/glm4.7", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 },
+          { "id": "moonshotai/kimi-k2.5", "name": "moonshotai/kimi-k2.5", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 },
+          { "id": "qwen/qwen3.5-397b-a17b", "name": "qwen/qwen3.5-397b-a17b", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 },
+          { "id": "openai/gpt-oss-120b", "name": "openai/gpt-oss-120b", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 }
+        ]
+      },
+      "Gemini": {
+        "baseUrl": "https://generativelanguage.googleapis.com",
+        "apiKey": "REDACTED",
+        "api": "openai-completions",
+        "models": [
+          { "id": "gemini-2.5-flash", "name": "gemini-2.5-flash", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 }
+        ]
+      },
+      "GLM": {
+        "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+        "apiKey": "REDACTED",
+        "api": "openai-completions",
+        "models": [
+          { "id": "glm-4.7-flash", "name": "glm-4.7-flash", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 }
+        ]
+      },
+      "MiMo": {
+        "baseUrl": "https://api.xiaomimimo.com",
+        "apiKey": "REDACTED",
+        "api": "openai-completions",
+        "models": [
+          { "id": "mimo-v2-flash", "name": "mimo-v2-flash", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 }
+        ]
+      },
+      "Groq": {
+        "baseUrl": "https://api.groq.com/openai",
+        "apiKey": "REDACTED",
+        "api": "openai-completions",
+        "models": [
+          { "id": "openai/gpt-oss-120b", "name": "openai/gpt-oss-120b", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 }
+        ]
+      },
+      "Volcengine": {
+        "baseUrl": "https://ark.cn-beijing.volces.com/api/v3",
+        "apiKey": "REDACTED",
+        "api": "openai-completions",
+        "models": [
+          { "id": "deepseek-v3-2-251201", "name": "deepseek-v3.2", "reasoning": false, "input": ["text"], "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 }, "contextWindow": 200000, "maxTokens": 16384 }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "nvidia/z-ai/glm5",
+        "fallbacks": ["nvidia/z-ai/glm4.7", "nvidia/minimaxai/minimax-m2.1", "nvidia/qwen/qwen3.5-397b-a17b", "Groq/openai/gpt-oss-120b", "Gemini/gemini-2.5-flash", "GLM/glm-4.7-flash", "MiMo/mimo-v2-flash"]
+      },
+      "models": {
+        "github-copilot/gpt-4.1": {},
+        "zai/glm-4.7": { "alias": "GLM" },
+        "zai/glm-4.7-flash": {}
+      },
+      "workspace": "/home/opc/.openclaw/workspace",
+      "compaction": { "mode": "safeguard" },
+      "maxConcurrent": 4,
+      "subagents": { "maxConcurrent": 8 }
+    }
+  },
+  "tools": {
+    "web": {
+      "search": { "enabled": true, "apiKey": "REDACTED" },
+      "fetch": { "enabled": true }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": { "enabled": true },
+        "command-logger": { "enabled": true },
+        "session-memory": { "enabled": true }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "REDACTED",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "REDACTED"
+    },
+    "tailscale": { "mode": "off", "resetOnExit": false }
+  },
+  "skills": {
+    "install": { "nodeManager": "npm" },
+    "entries": {
+      "nano-banana-pro": { "apiKey": "REDACTED" },
+      "notion": { "apiKey": "REDACTED" }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": { "enabled": true }
+    }
+  }
+}
