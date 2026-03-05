@@ -1,90 +1,37 @@
 # Sprint vs. Marathon, Nevada’s Warming Race
 
-## What this project is about
-Have you ever felt like **summers are getting hotter** and **winters are getting warmer**?
-I live in Nevada, and I wondered:
+**Finished:** March 5, 2026
 
-- Is Nevada really getting warmer?
-- Is Elko changing a lot?
-- How do Elko, Reno, and Las Vegas compare?
-- If it’s warmer, does that change how much we need heating or cooling?
+I live in Nevada, and in the past few years I’ve felt like summers are getting hotter and winters are getting warmer in Elko. I wanted to know if that feeling matches real data. I also wondered how Elko compares with Reno and Las Vegas, and what warming could mean for daily life.
 
-So I used real climate data to find out.
+This project uses official NOAA climate data to answer three questions: (1) Are annual average temperatures in Elko, Reno, and Las Vegas increasing over the last ~50 years? (2) Which city is warming the fastest (the “sprint vs. marathon” idea)? (3) In Elko, does warming affect heating and cooling demand?
 
----
+The data in this folder comes from NOAA Climate Data Online (CDO). I used long-term airport weather stations because they have consistent records over many decades: Elko Regional Airport (USW00024121), Reno Airport (USW00023185), and Las Vegas (McCarran/Harry Reid) (USW00023169).
 
-## Event info (ECSD STEM Fair 2026)
-From the ECSD STEM Fair website:
-- **Where:** Elko Convention Center
-- **When:** **March 9–12**
-- Website: https://sites.google.com/ecsdnv.net/2026-ecsd-stem-fair/home
+To compare warming fairly, I used **temperature anomalies** instead of raw temperatures. Las Vegas is naturally hotter than Elko, so raw temperatures don’t show which city is warming faster. An anomaly is the year’s temperature minus that city’s average during a baseline period. For this project, the baseline is **1975–2000**. Then I used a simple **linear trend** to summarize warming rate in **°F per decade**.
 
----
+To connect climate to real life in Elko, I used **Heating Degree Days (HDD)**. HDD estimates how much heating is needed by adding up how far the daily average temperature is below a base temperature (often 65°F). Colder days add more HDD; warm days add zero. Lower HDD usually means less heating is needed.
 
-## My research questions (RQs)
-**RQ1:** Are the annual average temperatures in **Elko, Reno, and Las Vegas** increasing over the past ~50 years?
+Overall, the results show that all three cities have warmed over time, and the warming rates are not identical. In Elko, warming can mean less heating demand and more hot-day exposure.
 
-**RQ2:** Which city is warming the fastest: **Elko, Reno, or Las Vegas**? (That’s the “Sprint vs. Marathon” part.)
+## What I learned (why 30 years?)
 
-**RQ3:** How do temperature changes affect **heating and cooling demand** in Elko?
+Before this project, I thought climate was just “average weather.” Now I understand why scientists often use **30-year climate normals**. Weather changes a lot from year to year, so a 30-year average helps smooth out the ups and downs while still representing today’s climate.
 
----
+## Event information
 
-## Data source (official climate data)
-All the weather data in this folder comes from **NOAA** (National Oceanic and Atmospheric Administration), using **NOAA Climate Data Online (CDO)**.
+This project was prepared for the ECSD STEM Fair 2026. According to the ECSD STEM Fair website, the fair is held at the Elko Convention Center and the district fair dates are March 9–12.  
+Website: https://sites.google.com/ecsdnv.net/2026-ecsd-stem-fair/home
 
-I used long-term airport weather stations:
-- **Elko Regional Airport:** USW00024121
-- **Reno Airport:** USW00023185
-- **Las Vegas (McCarran/Harry Reid):** USW00023169
+## Folder guide (what each file is for)
 
----
+The final poster is in `stemfair/final/` as `stemfair_final_poster.pdf`.
 
-## How I did it (simple method)
-### 1) Annual average temperature (for RQ1)
-- I used monthly averages to make a yearly average temperature for each city.
+A table used to calculate annual average temperatures and generate the annual temperature chart in the poster is in `stemfair/data_sources/` as `poster_source_annual_avg_temp_3cities_1975-2025.csv`.
 
-### 2) Anomaly + trend (for RQ2)
-- Cities have different normal temperatures (Las Vegas is always hotter than Elko).
-- To compare fairly, I used **temperature anomaly**:
-  - Anomaly = (year’s temperature) − (that city’s average from **1975–2000**)
-- Then I used a **linear trend line** to compare warming speed (°F per decade).
-
-### 3) Heating and cooling (for RQ3)
-To connect climate to real life, I used:
-- **HDD65 (Heating Degree Days):** bigger HDD means a colder year (more heating needed)
-- **Hot days (TMAX ≥ 90°F):** more hot days means more cooling stress
-
----
-
-## What I found (short version)
-- All three cities show warming over time.
-- The warming rate is not exactly the same in each city.
-- In Elko, warming can mean **less heating needed** (lower HDD) and **more hot days**.
-
----
-
-## What is inside this GitHub folder?
-
-### `stemfair/final/`
-- `stemfair_final_poster.pdf` — my final poster
-- `COMMENT.txt` — a short note saved with the poster
-
-### `stemfair/data_sources/`
-- `poster_source_annual_avg_temp_3cities_1975-2025.csv`
-  - The table I used to calculate annual average temperature and make the temperature chart in the poster.
-
-### Base daily downloads (NOAA CDO exports)
-These are the big daily data files downloaded from NOAA:
+The large daily data downloads from NOAA CDO are stored as:
 - `stemfair/elko_1975-2026.csv`
 - `stemfair/reno_1975-2026.csv`
 - `stemfair/lasvegas_1975-2026.csv`
 
-### Charts
-- `stemfair/svt_charts/` — the SVG charts I selected (poster-ready)
-  - Start with `stemfair/svt_charts/README_svt_charts.md`
-
----
-
-## Extra notes
-- Climate scientists often use **30-year climate normals** because 30 years is long enough to smooth out year-to-year weather changes, but still shows what the climate is like now.
+The selected, poster-ready SVG charts are in `stemfair/svt_charts/` (see `stemfair/svt_charts/README_svt_charts.md`).
