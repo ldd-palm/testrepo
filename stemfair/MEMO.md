@@ -28,13 +28,17 @@ Website: https://sites.google.com/ecsdnv.net/2026-ecsd-stem-fair/home
 
 ## Folder guide (what each file is for)
 
-The final poster is in `stemfair/final/` as `stemfair_final_poster.pdf`.
+### `stemfair/final/`
+- `stemfair_final_poster.pdf` — the final poster PDF.
+- `elko_annual_HDD_CDD_1975-2025.csv` — a yearly table of HDD and CDD values (used for the heating/cooling part of the project).
+- `elko_degree_days_workbook.xlsx` — the Excel workbook used to work with the HDD/CDD table and calculations.
 
-A table used to calculate annual average temperatures and generate the annual temperature chart in the poster is in `stemfair/data_sources/` as `poster_source_annual_avg_temp_3cities_1975-2025.csv`.
-
-The large daily data downloads from NOAA CDO are stored as:
+### Base NOAA daily downloads (CDO exports)
+These are the large daily data files downloaded from NOAA CDO:
 - `stemfair/elko_1975-2026.csv`
 - `stemfair/reno_1975-2026.csv`
 - `stemfair/lasvegas_1975-2026.csv`
 
-The selected, poster-ready SVG charts are in `stemfair/svg_charts/` (see `stemfair/svg_charts/README_svg_charts.md`).
+### `stemfair/svg_charts/`
+This folder contains the selected, poster-ready SVG charts.
+See `stemfair/svg_charts/README_svg_charts.md` for a short explanation of each chart file.
