@@ -1,75 +1,90 @@
-# Sprint vs. Marathon, Nevada's Warming Race
+# Sprint vs. Marathon, Nevada’s Warming Race
 
-This folder contains the data and figures used for the STEM fair poster **“Sprint vs. Marathon, Nevada's warming race”**.
+## What this project is about
+Have you ever felt like **summers are getting hotter** and **winters are getting warmer**?
+I live in Nevada, and I wondered:
 
-## Event Information (ECSD STEM Fair 2026)
-Source: Elko County School District STEM Fair website
-- **Venue:** Elko Convention Center (Elko County, Nevada)
-- **District STEM Fair dates:** **March 9–12**
-- **Eligibility note (from the event website):** Students must contact their school STEM Fair Representative; participants must live within the physical boundaries of ECSD.
-- **Advancement (from the event website):** Top projects may qualify for **Regeneron ISEF**.
+- Is Nevada really getting warmer?
+- Is Elko changing a lot?
+- How do Elko, Reno, and Las Vegas compare?
+- If it’s warmer, does that change how much we need heating or cooling?
 
-Event link: https://sites.google.com/ecsdnv.net/2026-ecsd-stem-fair/home
+So I used real climate data to find out.
 
-## Project Summary
-Many people in Elko feel that summers have become hotter and winters have become warmer. This project tests that idea using **official NOAA climate data**.
+---
 
-### Objectives / Research Questions
-**RQ1:** Are annual average temperatures in **Elko, Reno, and Las Vegas** increasing over the past ~50 years?
+## Event info (ECSD STEM Fair 2026)
+From the ECSD STEM Fair website:
+- **Where:** Elko Convention Center
+- **When:** **March 9–12**
+- Website: https://sites.google.com/ecsdnv.net/2026-ecsd-stem-fair/home
 
-**RQ2:** Which city has the highest warming rate: **Elko, Reno, or Las Vegas**? (Sprint vs. Marathon)
+---
 
-**RQ3:** How do temperature changes affect **heating and cooling demand** in daily life in **Elko**?
+## My research questions (RQs)
+**RQ1:** Are the annual average temperatures in **Elko, Reno, and Las Vegas** increasing over the past ~50 years?
 
-## Data Sources
-All climate data used here are from **NOAA NCEI** (via **NOAA Climate Data Online (CDO)**), using airport stations for long-term records.
+**RQ2:** Which city is warming the fastest: **Elko, Reno, or Las Vegas**? (That’s the “Sprint vs. Marathon” part.)
 
-Key stations (GHCND IDs used in downloads):
-- Elko Regional Airport: **USW00024121**
-- Reno Airport: **USW00023185**
-- Las Vegas (McCarran/Harry Reid): **USW00023169**
+**RQ3:** How do temperature changes affect **heating and cooling demand** in Elko?
 
-## Methods (High-level)
-### 1) Annual mean temperature (3-city comparison)
-- Compute each city’s annual mean temperature from monthly means (equal month-weighting).
+---
 
-### 2) Warming-rate comparison (anomaly + linear regression)
-- Convert each city’s temperatures to **anomalies** relative to a shared baseline period (**1975–2000**).
-- Fit a **linear trend** to the anomaly time series for each city.
-- Report slope in **°F per decade**.
+## Data source (official climate data)
+All the weather data in this folder comes from **NOAA** (National Oceanic and Atmospheric Administration), using **NOAA Climate Data Online (CDO)**.
 
-### 3) Energy-demand indicators for Elko (Goal 2)
-- **Heating Degree Days (HDD65):** computed from daily temperatures using base **65°F**.
-- **Cooling indicator:** hot days where **TMAX ≥ 90°F**.
-- Compare 2001–2025 to the 1975–2000 baseline using **percent change**.
+I used long-term airport weather stations:
+- **Elko Regional Airport:** USW00024121
+- **Reno Airport:** USW00023185
+- **Las Vegas (McCarran/Harry Reid):** USW00023169
 
-### Data quality rules
-- When using year/month completeness, exclude partial years (e.g., 2026 has incomplete months).
+---
 
-## Key Results (Poster-level)
-- **All three cities show warming** over the long term.
-- **Warming rates differ by city** (trend slopes make the comparison clear).
-- In Elko, warming implies **reduced heating demand (lower HDD)** and **increased heat exposure (more hot days)**.
+## How I did it (simple method)
+### 1) Annual average temperature (for RQ1)
+- I used monthly averages to make a yearly average temperature for each city.
 
-## What’s in this GitHub directory and how to use it
-This GitHub repository stores:
+### 2) Anomaly + trend (for RQ2)
+- Cities have different normal temperatures (Las Vegas is always hotter than Elko).
+- To compare fairly, I used **temperature anomaly**:
+  - Anomaly = (year’s temperature) − (that city’s average from **1975–2000**)
+- Then I used a **linear trend line** to compare warming speed (°F per decade).
 
-### `stemfair/` (this folder)
-- `README.md` — this file
-- `final/`
-  - `stemfair_final_poster.pdf` — the final poster PDF submitted for the fair
-  - `COMMENT.txt` — a short note saved with the final PDF
-- `data_sources/`
-  - `poster_source_annual_avg_temp_3cities_1975-2025.csv` — the table used to calculate annual average temperatures and generate the annual-temperature chart in the poster
-  - `elko_1975-2026.csv`, `reno_1975-2026.csv`, `lasvegas_1975-2026.csv` — base daily station downloads (NOAA CDO export)
+### 3) Heating and cooling (for RQ3)
+To connect climate to real life, I used:
+- **HDD65 (Heating Degree Days):** bigger HDD means a colder year (more heating needed)
+- **Hot days (TMAX ≥ 90°F):** more hot days means more cooling stress
 
-### Reproducing charts
-- You can reproduce charts in **Google Sheets** by importing the CSV files above.
-- Suggested workflow:
-  1. Import the CSV.
-  2. Filter incomplete years.
-  3. Compute anomalies (baseline 1975–2000) and/or HDD/Hot-day metrics.
-  4. Create line charts and bar charts; add trendlines where appropriate.
+---
 
-## Notes
-- Climate is often summarized using **30-year climate normals** to reduce year-to-year “weather noise” while still representing modern conditions.
+## What I found (short version)
+- All three cities show warming over time.
+- The warming rate is not exactly the same in each city.
+- In Elko, warming can mean **less heating needed** (lower HDD) and **more hot days**.
+
+---
+
+## What is inside this GitHub folder?
+
+### `stemfair/final/`
+- `stemfair_final_poster.pdf` — my final poster
+- `COMMENT.txt` — a short note saved with the poster
+
+### `stemfair/data_sources/`
+- `poster_source_annual_avg_temp_3cities_1975-2025.csv`
+  - The table I used to calculate annual average temperature and make the temperature chart in the poster.
+
+### Base daily downloads (NOAA CDO exports)
+These are the big daily data files downloaded from NOAA:
+- `stemfair/elko_1975-2026.csv`
+- `stemfair/reno_1975-2026.csv`
+- `stemfair/lasvegas_1975-2026.csv`
+
+### Charts
+- `stemfair/svt_charts/` — the SVG charts I selected (poster-ready)
+  - Start with `stemfair/svt_charts/README_svt_charts.md`
+
+---
+
+## Extra notes
+- Climate scientists often use **30-year climate normals** because 30 years is long enough to smooth out year-to-year weather changes, but still shows what the climate is like now.
