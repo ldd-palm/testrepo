@@ -4,7 +4,10 @@
 
 I live in Nevada, and in the past few years I’ve felt like summers are getting hotter and winters are getting warmer in Elko. I wanted to know if that feeling matches real data. I also wondered how Elko compares with Reno and Las Vegas, and what warming could mean for daily life.
 
-This project uses official NOAA climate data to answer three questions: (1) Are annual average temperatures in Elko, Reno, and Las Vegas increasing over the last ~50 years? (2) Which city is warming the fastest (the “sprint vs. marathon” idea)? (3) In Elko, does warming affect heating and cooling demand?
+This project uses official NOAA climate data to answer three questions:
+(1) Are annual average temperatures in Elko, Reno, and Las Vegas increasing over the last ~50 years?
+(2) Which city is warming the fastest (the “sprint vs. marathon” idea)?
+(3) In Elko, does warming affect heating and cooling demand?
 
 The data in this folder comes from NOAA Climate Data Online (CDO). I used long-term airport weather stations because they have consistent records over many decades: Elko Regional Airport (USW00024121), Reno Airport (USW00023185), and Las Vegas (McCarran/Harry Reid) (USW00023169).
 
