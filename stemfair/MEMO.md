@@ -37,4 +37,4 @@ The large daily data downloads from NOAA CDO are stored as:
 - `stemfair/reno_1975-2026.csv`
 - `stemfair/lasvegas_1975-2026.csv`
 
-The selected, poster-ready SVG charts are in `stemfair/svt_charts/` (see `stemfair/svt_charts/README_svt_charts.md`).
+The selected, poster-ready SVG charts are in `stemfair/svg_charts/` (see `stemfair/svg_charts/README_svg_charts.md`).

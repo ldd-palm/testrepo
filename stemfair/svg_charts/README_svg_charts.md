@@ -1,4 +1,4 @@
-# My STEM Fair Charts (SVG)
+# My STEM Fair Charts (SVG files)
 
 These are the main charts I picked for my project:
 **“Sprint vs. Marathon, Nevada’s warming race”**.
@@ -9,19 +9,19 @@ SVG files are good for posters because they stay clear when you zoom in.
 
 ## Goal Charts (Final Versions)
 
-### `goal1.svg` — Which city is warming fastest?
+### `goal1_city_warming_anomaly_comparison.svg` — Which city is warming fastest?
 - This chart compares **Elko, Reno, and Las Vegas**.
 - It uses **temperature anomaly** (how much warmer or cooler than the 1975–2000 average).
 - I used anomaly so the cities can be compared fairly (Las Vegas is always hotter, but that doesn’t automatically mean it warms faster).
 
-### `goal2.svg` — How Elko’s energy needs are changing
+### `goal2_elko_energy_needs_change.svg` — How Elko’s energy needs are changing
 - This chart compares **2001–2025** to the baseline **1975–2000**.
 - It shows percent change for:
   - **Heating (orange):** HDD65 (Heating Degree Days, base 65°F)
   - **Cooling (blue):** Hot days (TMAX ≥ 90°F)
   - **Total (purple):** a combined index (a simple summary number)
 
-### `goal3.svg` — Snowfall “time travel” (Elko winters)
+### `goal3_elko_snowfall_time_travel.svg` — Snowfall “time travel” (Elko winters)
 - This chart compares two time periods:
   - **1975–2000**
   - **2001–2025**
@@ -48,8 +48,8 @@ SVG files are good for posters because they stay clear when you zoom in.
 
 ## Where to start
 If you are new, start with:
-1) `goal1.svg`
-2) `goal2.svg`
-3) `goal3.svg`
+1) `goal1_city_warming_anomaly_comparison.svg`
+2) `goal2_elko_energy_needs_change.svg`
+3) `goal3_elko_snowfall_time_travel.svg`
 
 For full project info and data sources, see `stemfair/README.md`.
