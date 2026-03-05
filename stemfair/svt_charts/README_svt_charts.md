@@ -1,42 +1,55 @@
-# Selected SVG Charts (svt_charts)
+# My STEM Fair Charts (SVG)
 
-This folder contains the final, poster-ready **SVG** charts selected for the project:
-**“Sprint vs. Marathon, Nevada's warming race”**.
+These are the main charts I picked for my project:
+**“Sprint vs. Marathon, Nevada’s warming race”**.
 
-## Goal charts (final poster versions)
+SVG files are good for posters because they stay clear when you zoom in.
 
-### `goal1.svg`
-**Meaning:** Goal 1 — 3-city warming comparison (Elko vs Reno vs Las Vegas).
-- Shows **temperature anomalies** relative to the **1975–2000** baseline (each city centered to its own baseline mean).
-- Uses a **two-era frame** (1975–2000 vs 2001–2025) to help viewers see how recent decades compare.
+---
 
-### `goal2.svg`
-**Meaning:** Goal 2 — how Elko’s energy needs are changing.
-- Compares **2001–2025 vs baseline 1975–2000** using **percent change**.
-- Color meaning (as used in the chart):
+## Goal Charts (Final Versions)
+
+### `goal1.svg` — Which city is warming fastest?
+- This chart compares **Elko, Reno, and Las Vegas**.
+- It uses **temperature anomaly** (how much warmer or cooler than the 1975–2000 average).
+- I used anomaly so the cities can be compared fairly (Las Vegas is always hotter, but that doesn’t automatically mean it warms faster).
+
+### `goal2.svg` — How Elko’s energy needs are changing
+- This chart compares **2001–2025** to the baseline **1975–2000**.
+- It shows percent change for:
   - **Heating (orange):** HDD65 (Heating Degree Days, base 65°F)
   - **Cooling (blue):** Hot days (TMAX ≥ 90°F)
-  - **Total (purple):** Combined index (unitless summary)
+  - **Total (purple):** a combined index (a simple summary number)
 
-### `goal3.svg`
-**Meaning:** Goal 3 — winter snowfall “time-travel” comparison for Elko.
-- Compares two **aligned 25-year eras** (1975–2000 vs 2001–2025) using bars.
-- Alignment (years since start of each era) helps compare distributions between eras.
+### `goal3.svg` — Snowfall “time travel” (Elko winters)
+- This chart compares two time periods:
+  - **1975–2000**
+  - **2001–2025**
+- The bars are **aligned by “years since the start”** of each period, so I can compare the two eras more directly.
 
-## Elko winter trend charts (supporting charts)
+---
 
-### `01_DJF_avg_temperature_trend.svg`
-**Meaning:** Elko winter (DJF) average temperature trend over time.
+## Extra Winter Trend Charts (Elko)
 
-### `02_freeze_days_trend.svg`
-**Meaning:** Elko winter freeze-day trend (count of days at/under freezing, based on daily temperatures).
+### `01_DJF_avg_temperature_trend.svg` — Winter temperature trend
+- Shows how Elko’s average winter temperature (DJF = Dec–Feb) changes over time.
 
-### `03_winter_HDD65_trend.svg`
-**Meaning:** Elko winter heating demand trend using **HDD65**.
+### `02_freeze_days_trend.svg` — Freeze days trend
+- Shows if Elko is getting **more or fewer freezing days** in winter.
 
-### `04_winter_total_snowfall_combo.svg`
-**Meaning:** Elko winter snowfall summary chart (winter total snowfall with additional trend context).
+### `03_winter_HDD65_trend.svg` — Heating demand trend (HDD65)
+- Shows how the “need for heating” changes over time.
+- **Higher HDD = colder winter (more heating needed).**
 
-## Notes
-- SVG is vector format and is recommended for printing on a STEM fair poster.
-- For data sources and full methods, see `stemfair/README.md`.
+### `04_winter_total_snowfall_combo.svg` — Winter snowfall trend
+- Shows how Elko’s total winter snowfall changes over time.
+
+---
+
+## Where to start
+If you are new, start with:
+1) `goal1.svg`
+2) `goal2.svg`
+3) `goal3.svg`
+
+For full project info and data sources, see `stemfair/README.md`.
