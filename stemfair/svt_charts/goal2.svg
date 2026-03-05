@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect x="0" y="0" width="1200" height="700" fill="white" opacity="1.0"/>
+<text x="600.0" y="45" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#111">How Elko’s Energy Needs Are Changing</text>
+<text x="600.0" y="70" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="normal" fill="#444">Percent change: 2001–2025 vs baseline 1975–2000 (Heating=HDD65, Cooling=Hot days ≥90°F)</text>
+<line x1="120" y1="590" x2="1160" y2="590" stroke="#555" stroke-width="2" opacity="1.0"/>
+<line x1="120" y1="590" x2="120" y2="90" stroke="#555" stroke-width="2" opacity="1.0"/>
+<line x1="120" y1="590.0" x2="1160" y2="590.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="110" y="594.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">-49%</text>
+<line x1="120" y1="506.6666666666667" x2="1160" y2="506.6666666666667" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="110" y="510.6666666666667" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">-33%</text>
+<line x1="120" y1="423.33333333333337" x2="1160" y2="423.33333333333337" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="110" y="427.33333333333337" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">-16%</text>
+<line x1="120" y1="340.0" x2="1160" y2="340.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="110" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">0%</text>
+<line x1="120" y1="256.6666666666667" x2="1160" y2="256.6666666666667" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="110" y="260.6666666666667" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">16%</text>
+<line x1="120" y1="173.33333333333337" x2="1160" y2="173.33333333333337" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="110" y="177.33333333333337" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">33%</text>
+<line x1="120" y1="90.0" x2="1160" y2="90.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="110" y="94.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">49%</text>
+<line x1="120" y1="340.0" x2="1160" y2="340.0" stroke="#555" stroke-width="2" opacity="1.0"/>
+<rect x="213.6" y="340.0" width="187.2" height="26.659294308698918" fill="#F4B400" opacity="0.85"/>
+<text x="307.2" y="386.6592943086989" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">-5.2%</text>
+<text x="307.2" y="618" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">Heating</text>
+<text x="307.2" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#444">(Annual HDD)</text>
+<rect x="546.4" y="140.00000000000006" width="187.2" height="199.99999999999994" fill="#4285F4" opacity="0.85"/>
+<text x="640.0" y="130.00000000000006" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">+39.1%</text>
+<text x="640.0" y="618" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">Cooling</text>
+<text x="640.0" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#444">(Hot days ≥ 90°F)</text>
+<rect x="879.1999999999999" y="226.67035284565054" width="187.2" height="113.32964715434946" fill="#8E24AA" opacity="0.85"/>
+<text x="972.8" y="216.67035284565054" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">+22.2%</text>
+<text x="972.8" y="618" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">Total</text>
+<text x="972.8" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#444">(Combined index)</text>
+<text x="30" y="340" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" transform="rotate(-90 30 340)">2001–2025 vs baseline 1975–2000</text>
+<text x="120" y="660" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="start" font-weight="normal" fill="#333">Combined index = (Δ%HotDays − Δ%HDD) / 2 (unitless summary; not a physical sum).</text>
+</svg>

@@ -1,0 +1,74 @@
+<!-- Elko, NV — ELKO REGIONAL AIRPORT (GHCND:USW00024121)
+Winter Freeze Days (Tmin < 32°F) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect x="0" y="0" width="1200" height="700" fill="white" opacity="1.0"/>
+<text x="600.0" y="40" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#111">Elko, NV — ELKO REGIONAL AIRPORT (GHCND:USW00024121)
+Winter Freeze Days (Tmin &lt; 32°F)</text>
+<line x1="90" y1="620" x2="1160" y2="620" stroke="#333" stroke-width="2" opacity="1.0"/>
+<line x1="90" y1="620" x2="90" y2="70" stroke="#333" stroke-width="2" opacity="1.0"/>
+<line x1="90.0" y1="620" x2="90.0" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="90.0" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">1992</text>
+<line x1="247.35294117647058" y1="620" x2="247.35294117647058" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="247.35294117647058" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">1997</text>
+<line x1="404.70588235294116" y1="620" x2="404.70588235294116" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="404.70588235294116" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2002</text>
+<line x1="562.0588235294117" y1="620" x2="562.0588235294117" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="562.0588235294117" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2007</text>
+<line x1="719.4117647058823" y1="620" x2="719.4117647058823" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="719.4117647058823" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2012</text>
+<line x1="876.764705882353" y1="620" x2="876.764705882353" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="876.764705882353" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2017</text>
+<line x1="1034.1176470588234" y1="620" x2="1034.1176470588234" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="1034.1176470588234" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2022</text>
+<line x1="90" y1="620.0" x2="1160" y2="620.0" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="624.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">0</text>
+<line x1="90" y1="509.64686998394865" x2="1160" y2="509.64686998394865" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="513.6468699839486" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">20</text>
+<line x1="90" y1="399.2937399678973" x2="1160" y2="399.2937399678973" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="403.2937399678973" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">40</text>
+<line x1="90" y1="288.94060995184594" x2="1160" y2="288.94060995184594" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="292.94060995184594" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">60</text>
+<line x1="90" y1="178.5874799357946" x2="1160" y2="178.5874799357946" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="182.5874799357946" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">80</text>
+<line x1="90" y1="68.23434991974318" x2="1160" y2="68.23434991974318" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="72.23434991974318" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">100</text>
+<text x="600.0" y="675" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Winter Year (Dec–Feb)</text>
+<text x="25" y="350.0" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" transform="rotate(-90 25 350.0)">Days</text>
+<rect x="78.98529411764706" y="128.92857142857144" width="22.02941176470588" height="491.07142857142856" fill="#2ca02c" opacity="0.85"/>
+<rect x="110.45588235294117" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="141.9264705882353" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="173.39705882352945" y="195.14044943820227" width="22.02941176470588" height="424.85955056179773" fill="#2ca02c" opacity="0.85"/>
+<rect x="204.86764705882354" y="145.48154093097918" width="22.02941176470588" height="474.5184590690208" fill="#2ca02c" opacity="0.85"/>
+<rect x="236.33823529411765" y="184.10513643659715" width="22.02941176470588" height="435.89486356340285" fill="#2ca02c" opacity="0.85"/>
+<rect x="267.8088235294118" y="150.99919743178174" width="22.02941176470588" height="469.00080256821826" fill="#2ca02c" opacity="0.85"/>
+<rect x="299.27941176470586" y="145.48154093097918" width="22.02941176470588" height="474.5184590690208" fill="#2ca02c" opacity="0.85"/>
+<rect x="330.75" y="150.99919743178174" width="22.02941176470588" height="469.00080256821826" fill="#2ca02c" opacity="0.85"/>
+<rect x="362.22058823529414" y="128.92857142857144" width="22.02941176470588" height="491.07142857142856" fill="#2ca02c" opacity="0.85"/>
+<rect x="393.69117647058823" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="425.1617647058824" y="150.99919743178174" width="22.02941176470588" height="469.00080256821826" fill="#2ca02c" opacity="0.85"/>
+<rect x="456.6323529411765" y="150.99919743178174" width="22.02941176470588" height="469.00080256821826" fill="#2ca02c" opacity="0.85"/>
+<rect x="488.10294117647055" y="128.92857142857144" width="22.02941176470588" height="491.07142857142856" fill="#2ca02c" opacity="0.85"/>
+<rect x="519.5735294117646" y="173.06982343499197" width="22.02941176470588" height="446.930176565008" fill="#2ca02c" opacity="0.85"/>
+<rect x="551.0441176470588" y="156.5168539325843" width="22.02941176470588" height="463.4831460674157" fill="#2ca02c" opacity="0.85"/>
+<rect x="582.5147058823529" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="613.9852941176471" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="645.4558823529412" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="676.9264705882354" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="708.3970588235294" y="145.48154093097918" width="22.02941176470588" height="474.5184590690208" fill="#2ca02c" opacity="0.85"/>
+<rect x="739.8676470588235" y="145.48154093097918" width="22.02941176470588" height="474.5184590690208" fill="#2ca02c" opacity="0.85"/>
+<rect x="771.3382352941177" y="178.5874799357946" width="22.02941176470588" height="441.4125200642054" fill="#2ca02c" opacity="0.85"/>
+<rect x="802.8088235294118" y="184.10513643659715" width="22.02941176470588" height="435.89486356340285" fill="#2ca02c" opacity="0.85"/>
+<rect x="834.279411764706" y="128.92857142857144" width="22.02941176470588" height="491.07142857142856" fill="#2ca02c" opacity="0.85"/>
+<rect x="865.7500000000001" y="184.10513643659715" width="22.02941176470588" height="435.89486356340285" fill="#2ca02c" opacity="0.85"/>
+<rect x="897.220588235294" y="139.96388443017662" width="22.02941176470588" height="480.0361155698234" fill="#2ca02c" opacity="0.85"/>
+<rect x="928.6911764705882" y="184.10513643659715" width="22.02941176470588" height="435.89486356340285" fill="#2ca02c" opacity="0.85"/>
+<rect x="960.1617647058823" y="167.55216693418947" width="22.02941176470588" height="452.4478330658105" fill="#2ca02c" opacity="0.85"/>
+<rect x="991.6323529411765" y="139.96388443017662" width="22.02941176470588" height="480.0361155698234" fill="#2ca02c" opacity="0.85"/>
+<rect x="1023.1029411764705" y="134.446227929374" width="22.02941176470588" height="485.553772070626" fill="#2ca02c" opacity="0.85"/>
+<rect x="1054.5735294117646" y="128.92857142857144" width="22.02941176470588" height="491.07142857142856" fill="#2ca02c" opacity="0.85"/>
+<rect x="1086.0441176470588" y="211.69341894060994" width="22.02941176470588" height="408.30658105939006" fill="#2ca02c" opacity="0.85"/>
+<rect x="1117.514705882353" y="178.5874799357946" width="22.02941176470588" height="441.4125200642054" fill="#2ca02c" opacity="0.85"/>
+<rect x="1148.985294117647" y="222.72873194221512" width="22.02941176470588" height="397.2712680577849" fill="#2ca02c" opacity="0.85"/>
+<polyline points="90.00,140.15 1160.00,168.79" fill="none" stroke="crimson" stroke-width="3" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="100" y="55" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="bold" fill="crimson">Linear trend: -0.15 per year</text>
+</svg>

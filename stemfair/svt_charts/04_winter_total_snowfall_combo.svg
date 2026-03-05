@@ -1,0 +1,115 @@
+<!-- Elko, NV — ELKO REGIONAL AIRPORT (GHCND:USW00024121)
+Winter Total Snowfall (DJF) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect x="0" y="0" width="1200" height="700" fill="white" opacity="1.0"/>
+<text x="600.0" y="40" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#111">Elko, NV — ELKO REGIONAL AIRPORT (GHCND:USW00024121)
+Winter Total Snowfall (DJF)</text>
+<line x1="90" y1="620" x2="1160" y2="620" stroke="#333" stroke-width="2" opacity="1.0"/>
+<line x1="90" y1="620" x2="90" y2="70" stroke="#333" stroke-width="2" opacity="1.0"/>
+<line x1="90.0" y1="620" x2="90.0" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="90.0" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">1992</text>
+<line x1="247.35294117647058" y1="620" x2="247.35294117647058" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="247.35294117647058" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">1997</text>
+<line x1="404.70588235294116" y1="620" x2="404.70588235294116" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="404.70588235294116" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2002</text>
+<line x1="562.0588235294117" y1="620" x2="562.0588235294117" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="562.0588235294117" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2007</text>
+<line x1="719.4117647058823" y1="620" x2="719.4117647058823" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="719.4117647058823" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2012</text>
+<line x1="876.764705882353" y1="620" x2="876.764705882353" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="876.764705882353" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2017</text>
+<line x1="1034.1176470588234" y1="620" x2="1034.1176470588234" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="1034.1176470588234" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2022</text>
+<line x1="90" y1="620.0" x2="1160" y2="620.0" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="624.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">0</text>
+<line x1="90" y1="540.5546728296981" x2="1160" y2="540.5546728296981" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="544.5546728296981" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">10</text>
+<line x1="90" y1="461.10934565939624" x2="1160" y2="461.10934565939624" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="465.10934565939624" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">20</text>
+<line x1="90" y1="381.66401848909436" x2="1160" y2="381.66401848909436" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="385.66401848909436" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">30</text>
+<line x1="90" y1="302.2186913187924" x2="1160" y2="302.2186913187924" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="306.2186913187924" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">40</text>
+<line x1="90" y1="222.7733641484906" x2="1160" y2="222.7733641484906" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="226.7733641484906" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">50</text>
+<line x1="90" y1="143.32803697818866" x2="1160" y2="143.32803697818866" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="147.32803697818866" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">60</text>
+<line x1="90" y1="63.88270980788673" x2="1160" y2="63.88270980788673" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="67.88270980788673" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">70</text>
+<text x="600.0" y="675" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Winter Year (Dec–Feb)</text>
+<text x="25" y="350.0" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" transform="rotate(-90 25 350.0)">Snowfall (units as reported by NOAA CDO)</text>
+<rect x="78.98529411764706" y="569.9494438827098" width="22.02941176470588" height="50.05055611729017" fill="#9467bd" opacity="0.75"/>
+<rect x="110.45588235294117" y="148.88920988010983" width="22.02941176470588" height="471.11079011989017" fill="#9467bd" opacity="0.75"/>
+<rect x="141.9264705882353" y="468.2594251047234" width="22.02941176470588" height="151.7405748952766" fill="#9467bd" opacity="0.75"/>
+<rect x="173.39705882352945" y="481.7651307236747" width="22.02941176470588" height="138.2348692763253" fill="#9467bd" opacity="0.75"/>
+<rect x="204.86764705882354" y="141.73913043478262" width="22.02941176470588" height="478.2608695652174" fill="#9467bd" opacity="0.75"/>
+<rect x="236.33823529411765" y="257.7293081034234" width="22.02941176470588" height="362.2706918965766" fill="#9467bd" opacity="0.75"/>
+<rect x="267.8088235294118" y="463.4927054745053" width="22.02941176470588" height="156.50729452549467" fill="#9467bd" opacity="0.75"/>
+<rect x="299.27941176470586" y="461.90379893109923" width="22.02941176470588" height="158.09620106890077" fill="#9467bd" opacity="0.75"/>
+<rect x="330.75" y="472.23169146323846" width="22.02941176470588" height="147.76830853676154" fill="#9467bd" opacity="0.75"/>
+<rect x="362.22058823529414" y="445.22028022533584" width="22.02941176470588" height="174.77971977466416" fill="#9467bd" opacity="0.75"/>
+<rect x="393.69117647058823" y="372.1305792286581" width="22.02941176470588" height="247.86942077134188" fill="#9467bd" opacity="0.75"/>
+<rect x="425.1617647058824" y="553.2659251769464" width="22.02941176470588" height="66.73407482305356" fill="#9467bd" opacity="0.75"/>
+<rect x="456.6323529411765" y="255.34594828831433" width="22.02941176470588" height="364.65405171168567" fill="#9467bd" opacity="0.75"/>
+<rect x="488.10294117647055" y="224.36227069189658" width="22.02941176470588" height="395.6377293081034" fill="#9467bd" opacity="0.75"/>
+<rect x="519.5735294117646" y="501.62646251625017" width="22.02941176470588" height="118.37353748374983" fill="#9467bd" opacity="0.75"/>
+<rect x="551.0441176470588" y="466.67051856131735" width="22.02941176470588" height="153.32948143868265" fill="#9467bd" opacity="0.75"/>
+<rect x="582.5147058823529" y="245.0180557561751" width="22.02941176470588" height="374.9819442438249" fill="#9467bd" opacity="0.75"/>
+<rect x="613.9852941176471" y="420.59222880254225" width="22.02941176470588" height="199.40777119745775" fill="#9467bd" opacity="0.75"/>
+<rect x="645.4558823529412" y="363.39159323992493" width="22.02941176470588" height="256.60840676007507" fill="#9467bd" opacity="0.75"/>
+<rect x="676.9264705882354" y="484.1484905387838" width="22.02941176470588" height="135.8515094612162" fill="#9467bd" opacity="0.75"/>
+<rect x="708.3970588235294" y="521.4877943088256" width="22.02941176470588" height="98.51220569117436" fill="#9467bd" opacity="0.75"/>
+<rect x="739.8676470588235" y="330.02455582839815" width="22.02941176470588" height="289.97544417160185" fill="#9467bd" opacity="0.75"/>
+<rect x="771.3382352941177" y="567.5660840676007" width="22.02941176470588" height="52.43391593239926" fill="#9467bd" opacity="0.75"/>
+<rect x="802.8088235294118" y="560.4160046222736" width="22.02941176470588" height="59.58399537772641" fill="#9467bd" opacity="0.75"/>
+<rect x="834.279411764706" y="272.8239202657807" width="22.02941176470588" height="347.1760797342193" fill="#9467bd" opacity="0.75"/>
+<rect x="865.7500000000001" y="255.34594828831433" width="22.02941176470588" height="364.65405171168567" fill="#9467bd" opacity="0.75"/>
+<rect x="897.220588235294" y="515.1321681352015" width="22.02941176470588" height="104.86783186479852" fill="#9467bd" opacity="0.75"/>
+<rect x="928.6911764705882" y="299.8353315036834" width="22.02941176470588" height="320.1646684963166" fill="#9467bd" opacity="0.75"/>
+<rect x="960.1617647058823" y="450.781453127257" width="22.02941176470588" height="169.218546872743" fill="#9467bd" opacity="0.75"/>
+<rect x="991.6323529411765" y="504.80427560306225" width="22.02941176470588" height="115.19572439693775" fill="#9467bd" opacity="0.75"/>
+<rect x="1023.1029411764705" y="412.64769608551205" width="22.02941176470588" height="207.35230391448795" fill="#9467bd" opacity="0.75"/>
+<rect x="1054.5735294117646" y="245.0180557561751" width="22.02941176470588" height="374.9819442438249" fill="#9467bd" opacity="0.75"/>
+<rect x="1086.0441176470588" y="464.2871587462083" width="22.02941176470588" height="155.71284125379168" fill="#9467bd" opacity="0.75"/>
+<rect x="1117.514705882353" y="559.6215513505706" width="22.02941176470588" height="60.3784486494294" fill="#9467bd" opacity="0.75"/>
+<rect x="1148.985294117647" y="562.0049111656796" width="22.02941176470588" height="57.99508883432043" fill="#9467bd" opacity="0.75"/>
+<polyline points="152.94,362.12 184.41,299.68 215.88,362.60 247.35,361.33 278.82,359.42 310.29,420.12 341.76,443.00 373.24,460.95 404.71,419.64 436.18,370.07 467.65,381.35 499.12,400.25 530.59,338.60 562.06,371.65 593.53,399.46 625.00,395.96 656.47,406.93 687.94,423.93 719.41,453.32 750.88,492.73 782.35,450.46 813.82,397.24 845.29,434.26 876.76,380.71 908.24,358.78 939.71,405.18 971.18,436.64 1002.65,382.62 1034.12,415.51 1065.59,437.28 1097.06,448.72" fill="none" stroke="#111" stroke-width="4" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="152.94117647058823" cy="362.12046800520005" r="3" fill="#111" opacity="1.0"/>
+<circle cx="184.41176470588238" cy="299.6764408493428" r="3" fill="#111" opacity="1.0"/>
+<circle cx="215.88235294117646" cy="362.5971399682219" r="3" fill="#111" opacity="1.0"/>
+<circle cx="247.35294117647058" cy="361.32601473349706" r="3" fill="#111" opacity="1.0"/>
+<circle cx="278.82352941176475" cy="359.41932688140986" r="3" fill="#111" opacity="1.0"/>
+<circle cx="310.2941176470588" cy="420.1155568395204" r="3" fill="#111" opacity="1.0"/>
+<circle cx="341.7647058823529" cy="442.99581106456736" r="3" fill="#111" opacity="1.0"/>
+<circle cx="373.2352941176471" cy="460.9504550050556" r="3" fill="#111" opacity="1.0"/>
+<circle cx="404.70588235294116" cy="419.63888487649865" r="3" fill="#111" opacity="1.0"/>
+<circle cx="436.1764705882353" cy="370.06500072223025" r="3" fill="#111" opacity="1.0"/>
+<circle cx="467.64705882352945" cy="381.34623718041314" r="3" fill="#111" opacity="1.0"/>
+<circle cx="499.1176470588235" cy="400.25422504694495" r="3" fill="#111" opacity="1.0"/>
+<circle cx="530.5882352941176" cy="338.6046511627907" r="3" fill="#111" opacity="1.0"/>
+<circle cx="562.0588235294117" cy="371.65390726563635" r="3" fill="#111" opacity="1.0"/>
+<circle cx="593.5294117647059" cy="399.4597717752421" r="3" fill="#111" opacity="1.0"/>
+<circle cx="625.0" cy="395.9641773797488" r="3" fill="#111" opacity="1.0"/>
+<circle cx="656.4705882352941" cy="406.92763252925045" r="3" fill="#111" opacity="1.0"/>
+<circle cx="687.9411764705883" cy="423.92893254369505" r="3" fill="#111" opacity="1.0"/>
+<circle cx="719.4117647058823" cy="453.32370359670676" r="3" fill="#111" opacity="1.0"/>
+<circle cx="750.8823529411765" cy="492.7285858731765" r="3" fill="#111" opacity="1.0"/>
+<circle cx="782.3529411764706" cy="450.46367181857585" r="3" fill="#111" opacity="1.0"/>
+<circle cx="813.8235294117648" cy="397.23530261447354" r="3" fill="#111" opacity="1.0"/>
+<circle cx="845.2941176470589" cy="434.2568250758343" r="3" fill="#111" opacity="1.0"/>
+<circle cx="876.764705882353" cy="380.7106745630508" r="3" fill="#111" opacity="1.0"/>
+<circle cx="908.235294117647" cy="358.7837642640475" r="3" fill="#111" opacity="1.0"/>
+<circle cx="939.7058823529411" cy="405.1798353315038" r="3" fill="#111" opacity="1.0"/>
+<circle cx="971.1764705882352" cy="436.6401848909434" r="3" fill="#111" opacity="1.0"/>
+<circle cx="1002.6470588235294" cy="382.6173624151381" r="3" fill="#111" opacity="1.0"/>
+<circle cx="1034.1176470588234" cy="415.507727863643" r="3" fill="#111" opacity="1.0"/>
+<circle cx="1065.5882352941176" cy="437.27574750830576" r="3" fill="#111" opacity="1.0"/>
+<circle cx="1097.0588235294117" cy="448.71587462082925" r="3" fill="#111" opacity="1.0"/>
+<polyline points="90.00,370.08 1160.00,448.18" fill="none" stroke="crimson" stroke-width="3" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="100" y="55" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="bold" fill="crimson">Linear trend: -0.29 per year</text>
+<rect x="840" y="90" width="300" height="80" fill="white" opacity="0.9" stroke="#ccc"/>
+<rect x="855" y="108" width="20" height="12" fill="#9467bd" opacity="0.75"/>
+<text x="885" y="118" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#111">Total snowfall (DJF)</text>
+<line x1="855" y1="140" x2="875" y2="140" stroke="#111" stroke-width="4" opacity="1.0"/>
+<text x="885" y="145" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#111">5-year moving average</text>
+</svg>

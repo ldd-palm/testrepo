@@ -1,0 +1,75 @@
+<!-- Elko, NV — ELKO REGIONAL AIRPORT (GHCND:USW00024121)
+Winter Heating Degree Days (Base 65°F) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect x="0" y="0" width="1200" height="700" fill="white" opacity="1.0"/>
+<text x="600.0" y="40" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#111">Elko, NV — ELKO REGIONAL AIRPORT (GHCND:USW00024121)
+Winter Heating Degree Days (Base 65°F)</text>
+<line x1="90" y1="620" x2="1160" y2="620" stroke="#333" stroke-width="2" opacity="1.0"/>
+<line x1="90" y1="620" x2="90" y2="70" stroke="#333" stroke-width="2" opacity="1.0"/>
+<line x1="90.0" y1="620" x2="90.0" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="90.0" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">1992</text>
+<line x1="247.35294117647058" y1="620" x2="247.35294117647058" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="247.35294117647058" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">1997</text>
+<line x1="404.70588235294116" y1="620" x2="404.70588235294116" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="404.70588235294116" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2002</text>
+<line x1="562.0588235294117" y1="620" x2="562.0588235294117" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="562.0588235294117" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2007</text>
+<line x1="719.4117647058823" y1="620" x2="719.4117647058823" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="719.4117647058823" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2012</text>
+<line x1="876.764705882353" y1="620" x2="876.764705882353" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="876.764705882353" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2017</text>
+<line x1="1034.1176470588234" y1="620" x2="1034.1176470588234" y2="70" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="1034.1176470588234" y="642" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">2022</text>
+<line x1="90" y1="731.8474982212468" x2="1160" y2="731.8474982212468" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="735.8474982212468" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">2000</text>
+<line x1="90" y1="594.0567597631002" x2="1160" y2="594.0567597631002" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="598.0567597631002" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">2500</text>
+<line x1="90" y1="456.2660213049535" x2="1160" y2="456.2660213049535" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="460.2660213049535" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">3000</text>
+<line x1="90" y1="318.47528284680686" x2="1160" y2="318.47528284680686" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="322.47528284680686" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">3500</text>
+<line x1="90" y1="180.68454438866019" x2="1160" y2="180.68454438866019" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="184.68454438866019" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">4000</text>
+<line x1="90" y1="42.893805930513395" x2="1160" y2="42.893805930513395" stroke="#bbb" stroke-width="1" opacity="0.6" stroke-dasharray="4,6"/>
+<text x="80" y="46.893805930513395" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">4500</text>
+<text x="600.0" y="675" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Winter Year (Dec–Feb)</text>
+<text x="25" y="350.0" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" transform="rotate(-90 25 350.0)">HDD (°F·day)</text>
+<polyline points="90.00,377.73 121.47,107.93 152.94,335.01 184.41,474.18 215.88,354.44 247.35,375.38 278.82,387.78 310.29,375.52 341.76,414.10 373.24,284.30 404.71,258.67 436.18,485.06 467.65,246.82 499.12,278.38 530.59,427.74 562.06,278.24 593.53,227.81 625.00,365.74 656.47,277.55 687.94,411.21 719.41,362.43 750.88,245.17 782.35,403.35 813.82,546.52 845.29,299.05 876.76,341.90 908.24,434.50 939.71,347.69 971.18,474.45 1002.65,414.10 1034.12,394.54 1065.59,259.23 1097.06,582.07 1128.53,466.74 1160.00,544.73" fill="none" stroke="#ff7f0e" stroke-width="3" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="90.0" cy="377.7253003838099" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="121.47058823529412" cy="107.93103448275872" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="152.94117647058823" cy="335.0101714617844" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="184.41176470588238" cy="474.17881730451256" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="215.88235294117646" cy="354.4386655843831" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="247.35294117647058" cy="375.3828578300214" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="278.82352941176475" cy="387.7840242912546" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="310.2941176470588" cy="375.52064856847954" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="341.7647058823529" cy="414.1020553367606" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="373.2352941176471" cy="284.30317970918645" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="404.70588235294116" cy="258.6741023559712" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="436.1764705882353" cy="485.0642856427062" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="467.64705882352945" cy="246.8240988485706" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="499.1176470588235" cy="278.37817795548614" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="530.5882352941176" cy="427.74333844411717" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="562.0588235294117" cy="278.240387217028" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="593.5294117647059" cy="227.80897694134632" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="625.0" cy="365.73750613795113" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="656.4705882352941" cy="277.55143352473726" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="687.9411764705883" cy="411.20844982913957" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="719.4117647058823" cy="362.43052841495563" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="750.8823529411765" cy="245.1706099870728" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="782.3529411764706" cy="403.3543777370252" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="813.8235294117648" cy="546.5189549950396" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="845.2941176470589" cy="299.04678872420817" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="876.764705882353" cy="341.8997083846918" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="908.235294117647" cy="434.49508462856636" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="939.7058823529411" cy="347.6869193999339" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="971.1764705882352" cy="474.45439878142884" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="1002.6470588235294" cy="414.1020553367606" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="1034.1176470588234" cy="394.53577047570377" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="1065.5882352941176" cy="259.2252653098037" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="1097.0588235294117" cy="582.0689655172414" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="1128.5294117647059" cy="466.73811742777264" r="4" fill="#ff7f0e" opacity="1.0"/>
+<circle cx="1160.0" cy="544.7276753950837" r="4" fill="#ff7f0e" opacity="1.0"/>
+<polyline points="90.00,305.51 1160.00,429.35" fill="none" stroke="crimson" stroke-width="3" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="100" y="55" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="bold" fill="crimson">Linear trend: -13.22 per year</text>
+</svg>

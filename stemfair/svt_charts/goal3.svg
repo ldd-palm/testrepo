@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720">
+<rect x="0" y="0" width="1300" height="720" fill="white" opacity="1.0"/>
+<text x="650.0" y="45" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#111">Snowfall Time‑Travel</text>
+<text x="650.0" y="70" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="normal" fill="#444">Two 25‑Year Eras, Aligned and Compared</text>
+<line x1="95" y1="610" x2="1260" y2="610" stroke="#555" stroke-width="2" opacity="1.0"/>
+<line x1="95" y1="610" x2="95" y2="90" stroke="#555" stroke-width="2" opacity="1.0"/>
+<line x1="95.0" y1="610" x2="95.0" y2="90" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="95.0" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">+0</text>
+<line x1="337.70833333333337" y1="610" x2="337.70833333333337" y2="90" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="337.70833333333337" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">+5</text>
+<line x1="580.4166666666667" y1="610" x2="580.4166666666667" y2="90" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="580.4166666666667" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">+10</text>
+<line x1="823.125" y1="610" x2="823.125" y2="90" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="823.125" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">+15</text>
+<line x1="1065.8333333333335" y1="610" x2="1065.8333333333335" y2="90" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="1065.8333333333335" y="635" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">+20</text>
+<line x1="95" y1="610.0" x2="1260" y2="610.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="85" y="614.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">0</text>
+<line x1="95" y1="506.0" x2="1260" y2="506.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="85" y="510.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">15</text>
+<line x1="95" y1="402.0" x2="1260" y2="402.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="85" y="406.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">30</text>
+<line x1="95" y1="297.99999999999994" x2="1260" y2="297.99999999999994" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="85" y="301.99999999999994" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">45</text>
+<line x1="95" y1="194.0" x2="1260" y2="194.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="85" y="198.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">60</text>
+<line x1="95" y1="90.0" x2="1260" y2="90.0" stroke="#d0d0d0" stroke-width="1" opacity="0.45" />
+<text x="85" y="94.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#222">75</text>
+<text x="650.0" y="680" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" font-weight="normal" fill="#111">Years since start of period</text>
+<text x="25" y="360.0" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" transform="rotate(-90 25 360.0)">Snowfall (units as reported by NOAA CDO)</text>
+<rect x="79.4375" y="525.0033222591362" width="14.562499999999996" height="84.99667774086379" fill="#0F9D58" opacity="0.6"/>
+<rect x="96.0" y="457.9734219269103" width="14.562499999999996" height="152.0265780730897" fill="#F4B400" opacity="0.6"/>
+<rect x="127.97916666666666" y="567.8471760797343" width="14.562499999999996" height="42.152823920265746" fill="#0F9D58" opacity="0.6"/>
+<rect x="144.54166666666666" y="394.3986710963455" width="14.562499999999996" height="215.60132890365452" fill="#F4B400" opacity="0.6"/>
+<rect x="176.52083333333331" y="497.36212624584715" width="14.562499999999996" height="112.63787375415285" fill="#0F9D58" opacity="0.6"/>
+<rect x="193.08333333333331" y="551.953488372093" width="14.562499999999996" height="58.046511627906966" fill="#F4B400" opacity="0.6"/>
+<rect x="225.0625" y="448.99003322259136" width="14.562499999999996" height="161.00996677740864" fill="#0F9D58" opacity="0.6"/>
+<rect x="241.625" y="292.81727574750835" width="14.562499999999996" height="317.18272425249165" fill="#F4B400" opacity="0.6"/>
+<rect x="273.60416666666663" y="484.23255813953483" width="14.562499999999996" height="125.76744186046517" fill="#0F9D58" opacity="0.6"/>
+<rect x="290.16666666666663" y="265.8671096345515" width="14.562499999999996" height="344.1328903654485" fill="#F4B400" opacity="0.6"/>
+<rect x="322.14583333333337" y="565.7740863787376" width="14.562499999999996" height="44.22591362126241" fill="#0F9D58" opacity="0.6"/>
+<rect x="338.70833333333337" y="507.03654485049833" width="14.562499999999996" height="102.96345514950167" fill="#F4B400" opacity="0.6"/>
+<rect x="370.6875" y="462.8106312292358" width="14.562499999999996" height="147.1893687707642" fill="#0F9D58" opacity="0.6"/>
+<rect x="387.25" y="476.63122923588037" width="14.562499999999996" height="133.36877076411963" fill="#F4B400" opacity="0.6"/>
+<rect x="419.2291666666667" y="377.1229235880399" width="14.562499999999996" height="232.8770764119601" fill="#0F9D58" opacity="0.6"/>
+<rect x="435.7916666666667" y="283.8338870431893" width="14.562499999999996" height="326.1661129568107" fill="#F4B400" opacity="0.6"/>
+<rect x="467.7708333333333" y="294.89036544850484" width="14.562499999999996" height="315.10963455149516" fill="#0F9D58" opacity="0.6"/>
+<rect x="484.3333333333333" y="436.5514950166113" width="14.562499999999996" height="173.44850498338872" fill="#F4B400" opacity="0.6"/>
+<rect x="516.3125" y="523.6212624584717" width="14.562499999999996" height="86.37873754152827" fill="#0F9D58" opacity="0.6"/>
+<rect x="532.875" y="386.79734219269096" width="14.562499999999996" height="223.20265780730904" fill="#F4B400" opacity="0.6"/>
+<rect x="564.8541666666667" y="555.4086378737542" width="14.562499999999996" height="54.591362126245826" fill="#0F9D58" opacity="0.6"/>
+<rect x="581.4166666666667" y="491.83388704318935" width="14.562499999999996" height="118.16611295681065" fill="#F4B400" opacity="0.6"/>
+<rect x="613.3958333333333" y="513.2558139534883" width="14.562499999999996" height="96.74418604651169" fill="#0F9D58" opacity="0.6"/>
+<rect x="629.9583333333333" y="524.3122923588039" width="14.562499999999996" height="85.68770764119608" fill="#F4B400" opacity="0.6"/>
+<rect x="661.9375" y="466.265780730897" width="14.562499999999996" height="143.734219269103" fill="#0F9D58" opacity="0.6"/>
+<rect x="678.5" y="357.7740863787375" width="14.562499999999996" height="252.22591362126252" fill="#F4B400" opacity="0.6"/>
+<rect x="710.4791666666666" y="356.39202657807306" width="14.562499999999996" height="253.60797342192694" fill="#0F9D58" opacity="0.6"/>
+<rect x="727.0416666666666" y="564.3920265780731" width="14.562499999999996" height="45.607973421926886" fill="#F4B400" opacity="0.6"/>
+<rect x="759.0208333333334" y="497.3621262458472" width="14.562499999999996" height="112.63787375415279" fill="#0F9D58" opacity="0.6"/>
+<rect x="775.5833333333334" y="558.172757475083" width="14.562499999999996" height="51.82724252491698" fill="#F4B400" opacity="0.6"/>
+<rect x="807.5625" y="502.890365448505" width="14.562499999999996" height="107.10963455149499" fill="#0F9D58" opacity="0.6"/>
+<rect x="824.125" y="308.01993355481727" width="14.562499999999996" height="301.98006644518273" fill="#F4B400" opacity="0.6"/>
+<rect x="856.1041666666666" y="566.4651162790698" width="14.562499999999996" height="43.534883720930225" fill="#0F9D58" opacity="0.6"/>
+<rect x="872.6666666666666" y="292.81727574750823" width="14.562499999999996" height="317.18272425249177" fill="#F4B400" opacity="0.6"/>
+<rect x="904.6458333333334" y="200.21926910298998" width="14.562499999999996" height="409.78073089701" fill="#0F9D58" opacity="0.6"/>
+<rect x="921.2083333333334" y="518.7840531561462" width="14.562499999999996" height="91.21594684385377" fill="#F4B400" opacity="0.6"/>
+<rect x="953.1875" y="478.01328903654485" width="14.562499999999996" height="131.98671096345515" fill="#0F9D58" opacity="0.6"/>
+<rect x="969.75" y="331.514950166113" width="14.562499999999996" height="278.485049833887" fill="#F4B400" opacity="0.6"/>
+<rect x="1001.7291666666666" y="489.7607973421927" width="14.562499999999996" height="120.23920265780731" fill="#0F9D58" opacity="0.6"/>
+<rect x="1018.2916666666666" y="462.81063122923587" width="14.562499999999996" height="147.18936877076413" fill="#F4B400" opacity="0.6"/>
+<rect x="1050.2708333333335" y="194.0" width="14.562499999999996" height="416.0" fill="#0F9D58" opacity="0.6"/>
+<rect x="1066.8333333333335" y="509.80066445182723" width="14.562499999999996" height="100.19933554817277" fill="#d94801" opacity="0.85"/>
+<rect x="1098.8125" y="294.89036544850495" width="14.562499999999996" height="315.10963455149505" fill="#0F9D58" opacity="0.6"/>
+<rect x="1115.375" y="429.641196013289" width="14.562499999999996" height="180.358803986711" fill="#d94801" opacity="0.85"/>
+<rect x="1147.3541666666665" y="473.8671096345515" width="14.562499999999996" height="136.13289036544847" fill="#0F9D58" opacity="0.6"/>
+<rect x="1163.9166666666665" y="283.83388704318935" width="14.562499999999996" height="326.16611295681065" fill="#d94801" opacity="0.85"/>
+<rect x="1195.8958333333335" y="472.48504983388705" width="14.562499999999996" height="137.51495016611295" fill="#0F9D58" opacity="0.6"/>
+<rect x="1212.4583333333335" y="470.4119601328904" width="14.562499999999996" height="139.58803986710961" fill="#d94801" opacity="0.85"/>
+<rect x="1244.4375" y="481.468438538206" width="14.562499999999996" height="128.531561461794" fill="#0F9D58" opacity="0.6"/>
+<rect x="1261.0" y="557.4817275747508" width="14.562499999999996" height="52.518272425249165" fill="#d94801" opacity="0.85"/>
+<polyline points="95.00,507.83 1260.00,395.41" fill="none" stroke="#0F9D58" stroke-width="4" opacity="1.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10,8"/>
+<polyline points="95.00,411.19 1260.00,446.05" fill="none" stroke="#F4B400" stroke-width="4" opacity="1.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10,8"/>
+<line x1="1065.8333333333335" y1="450.2338870431894" x2="1260.0" y2="450.2338870431894" stroke="crimson" stroke-width="4" opacity="0.95" />
+<rect x="180.625" y="75" width="520" height="170" fill="white" opacity="0.93" stroke="#ccc"/>
+<rect x="195.625" y="95" width="18" height="12" fill="#0F9D58" opacity="0.6"/>
+<text x="220.625" y="105" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#111">1975–2000 bars (data starts 1976)</text>
+<rect x="195.625" y="120" width="18" height="12" fill="#F4B400" opacity="0.6"/>
+<text x="220.625" y="130" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#111">2001–2025 bars</text>
+<rect x="195.625" y="145" width="18" height="12" fill="#d94801" opacity="0.85"/>
+<text x="220.625" y="155" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#111">2021–2025 highlight bars</text>
+<line x1="195.625" y1="182" x2="225.625" y2="182" stroke="#0F9D58" stroke-width="4" opacity="1.0" stroke-dasharray="10,8"/>
+<text x="235.625" y="190" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#0F9D58">Trend 1975–2000: 0.68 per year</text>
+<line x1="195.625" y1="207" x2="225.625" y2="207" stroke="#F4B400" stroke-width="4" opacity="1.0" stroke-dasharray="10,8"/>
+<text x="235.625" y="215" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#F4B400">Trend 2001–2025: -0.21 per year</text>
+<line x1="195.625" y1="232" x2="225.625" y2="232" stroke="crimson" stroke-width="4" opacity="1.0" />
+<text x="235.625" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="crimson">Mean 2021–2025: 23.1</text>
+</svg>
