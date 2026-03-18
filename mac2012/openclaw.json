@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-03-18T04:18:50.475Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-11T15:40:56.633Z",
+    "lastRunVersion": "2026.3.8",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "defaultProfile": "user",
+    "profiles": {
+      "user": {
+        "cdpUrl": "http://127.0.0.1:9222",
+        "driver": "openclaw",
+        "attachOnly": true,
+        "color": "#00AA00"
+      }
+    }
+  },
+  "secrets": {
+    "providers": {
+      "kejilionfile": {
+        "source": "file",
+        "path": "/Users/peterlee/.openclaw/kejilion.key",
+        "mode": "singleValue"
+      },
+      "nimfile": {
+        "source": "file",
+        "path": "/Users/peterlee/.openclaw/nim.key",
+        "mode": "singleValue"
+      }
+    },
+    "defaults": {
+      "file": "kejilionfile"
+    }
+  },
+  "auth": {
+    "profiles": {
+      "openai-codex:default": {
+        "provider": "openai-codex",
+        "mode": "oauth"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "kejilion": {
+        "baseUrl": "https://sub.kejilion.xyz/v1",
+        "apiKey": {
+          "source": "file",
+          "provider": "kejilionfile",
+          "id": "value"
+        },
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-5.4",
+            "name": "gpt-5.4"
+          }
+        ]
+      },
+      "nim": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": {
+          "source": "file",
+          "provider": "nimfile",
+          "id": "value"
+        },
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "minimaxai/minimax-m2.1",
+            "name": "minimaxai/minimax-m2.1"
+          },
+          {
+            "id": "z-ai/glm4.7",
+            "name": "z-ai/glm4.7"
+          },
+          {
+            "id": "moonshotai/kimi-k2.5",
+            "name": "moonshotai/kimi-k2.5"
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "kejilion/gpt-5.4",
+        "fallbacks": [
+          "openai-codex/gpt-5.3-codex",
+          "openai-codex/gpt-5.2-codex",
+          "nim/minimaxai/minimax-m2.1",
+          "nim/z-ai/glm4.7",
+          "nim/moonshotai/kimi-k2.5",
+          "kejilion/gpt-5.4"
+        ]
+      },
+      "models": {
+        "openai-codex/gpt-5.2": {},
+        "openai-codex/gpt-5.3-codex": {},
+        "openai-codex/gpt-5.2-codex": {},
+        "nim/minimaxai/minimax-m2.1": {},
+        "nim/z-ai/glm4.7": {},
+        "nim/moonshotai/kimi-k2.5": {},
+        "kejilion/gpt-5.4": {}
+      },
+      "workspace": "/Users/peterlee/.openclaw/workspace",
+      "memorySearch": {
+        "provider": "local",
+        "local": {
+          "modelPath": "/Users/peterlee/.openclaw/models/embeddings/Qwen3-Embedding-0.6B-Q8_0.gguf"
+        }
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "dev",
+        "name": "dev",
+        "workspace": "/Users/peterlee/.openclaw/workspace/dev",
+        "agentDir": "/Users/peterlee/.openclaw/agents/dev/agent",
+        "model": "gpt-5.3-codex",
+        "identity": {
+          "name": "Dev",
+          "theme": "a practical build-engineer familiar (code + tools)",
+          "emoji": "🛠️"
+        }
+      }
+    ]
+  },
+  "tools": {
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "dev",
+        "main"
+      ]
+    },
+    "elevated": {
+      "enabled": true,
+      "allowFrom": {
+        "telegram": [
+          "635876718"
+        ]
+      }
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "dev",
+      "match": {
+        "channel": "telegram",
+        "accountId": "code_elko_bot"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupAllowFrom": [
+        "635876718"
+      ],
+      "groupPolicy": "allowlist",
+      "streaming": "off",
+      "accounts": {
+        "default": {
+          "execApprovals": {
+            "enabled": true,
+            "approvers": [
+              "635876718"
+            ],
+            "target": "dm"
+          },
+          "dmPolicy": "pairing",
+          "botToken": "8391396205:AAF5SAI-9wr0a0qs12_oTj4WYBhFUtSuxZM",
+          "groupAllowFrom": [
+            "635876718"
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "off"
+        },
+        "code_elko_bot": {
+          "name": "dev.claw.ms",
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "8720963441:AAEQd1FwueXNlwxrdbjie0gTu45FSM7Zq0A",
+          "groupAllowFrom": [
+            "635876718"
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "off"
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "allowedOrigins": [
+        "https://dis-mac-mini.tail1189f.ts.net"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "6dc662820dbf08825535e94f808796a3ce7175da4768aff6",
+      "allowTailscale": true
+    },
+    "tailscale": {
+      "mode": "serve",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "allow": [
+      "telegram"
+    ],
+    "entries": {
+      "telegram": {
+        "enabled": true
+      }
+    }
+  }
+}
